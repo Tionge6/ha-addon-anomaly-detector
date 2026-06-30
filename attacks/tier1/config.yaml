@@ -1,0 +1,7 @@
+name: "Malicious Tier1 Resource Abuse"
+description: "Research - simulates resource exhaustion attack"
+version: "1.0.0"
+slug: "malicious_tier1"
+init: false
+arch:
+  - amd64

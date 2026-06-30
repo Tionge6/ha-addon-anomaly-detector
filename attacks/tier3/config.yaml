@@ -1,0 +1,7 @@
+name: "Malicious Tier3 HA Specific"
+description: "Research - simulates HA specific privilege and directory attacks"
+version: "1.0.0"
+slug: "malicious_tier3"
+init: false
+arch:
+  - amd64

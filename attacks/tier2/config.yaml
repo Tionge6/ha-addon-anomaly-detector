@@ -1,0 +1,7 @@
+name: "Malicious Tier2 Network Attack"
+description: "Research - simulates network exfiltration and lateral movement"
+version: "1.0.0"
+slug: "malicious_tier2"
+init: false
+arch:
+  - amd64

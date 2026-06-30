@@ -1,0 +1,23 @@
+name: "HA Addon Anomaly Detector"
+description: "Runtime anomaly detection for Home Assistant Supervisor add-ons."
+version: "1.0.0"
+slug: "anomaly_detector"
+init: false
+arch:
+  - amd64
+hassio_api: true
+hassio_role: default
+map:
+  - data
+  - share:rw
+host_network: true
+options:
+  prometheus_url: "http://127.0.0.1:9090"
+  detection_interval: 15
+  baseline_dir: "/share/anomaly_detector/baseline"
+  alerts_dir: "/share/anomaly_detector/alerts"
+schema:
+  prometheus_url: str
+  detection_interval: int
+  baseline_dir: str
+  alerts_dir: str
